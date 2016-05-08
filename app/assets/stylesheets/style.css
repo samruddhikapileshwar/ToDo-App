@@ -1,0 +1,87 @@
+.title{
+   text-align: center !important;
+   margin-top: 60px;
+}
+
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+body {
+   font-size: 17px;
+   font-family:Verdana, Geneva, sans-serif;
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e1ffff+0,e1ffff+7,e1ffff+12,fdffff+12,e6f8fd+30,c8eefb+54,bee4f8+75,b1d8f5+100;Blue+Pipe+%232 */
+   background: rgba(179,220,237,1);
+background: -moz-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(41,227,202,1) 42%, rgba(188,224,238,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(179,220,237,1)), color-stop(42%, rgba(41,227,202,1)), color-stop(100%, rgba(188,224,238,1)));
+background: -webkit-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(41,227,202,1) 42%, rgba(188,224,238,1) 100%);
+background: -o-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(41,227,202,1) 42%, rgba(188,224,238,1) 100%);
+background: -ms-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(41,227,202,1) 42%, rgba(188,224,238,1) 100%);
+background: linear-gradient(to bottom, rgba(179,220,237,1) 0%, rgba(41,227,202,1) 42%, rgba(188,224,238,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=0 );
+
+}
+
+.login{
+   text-align: right;
+    margin-top: -136px;
+}
+
+input { 
+   margin-bottom: 5px;
+}
+
+p { 
+   line-height: 150%;
+}
+
+div#container {
+   width: 760px;
+   margin: 0 auto;
+}
+
+div#header {
+   text-align: center;
+   padding-bottom: 15px;
+}
+
+div#content {
+   float: left;
+   width: 450px;
+   padding: 10px;
+}
+
+div#content h3 {
+   margin-top: 15px;
+}
+
+ul#books {
+   list-style-type: none;
+}
+
+ul#books li {
+   line-height: 140%;
+}
+
+div#sidebar {
+   width: 200px;
+   margin-left: 480px;
+}
+
+ul#subjects {
+   width: 700px;
+   text-align: center;
+   padding: 5px;
+   background-color: #ececec;
+   border: 1px solid #ccc;
+   margin-bottom: 20px;
+}
+
+ul#subjects li {
+   display: inline;
+   padding-left: 5px;
+}
+

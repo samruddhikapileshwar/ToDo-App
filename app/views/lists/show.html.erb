@@ -1,0 +1,17 @@
+<p>
+  <strong>Title:</strong>
+  <%= @list.title %>
+</p>
+ 
+<p>
+  <strong>Description:</strong>
+  <%= @list.description %>
+</p>
+
+<h5 text-align: "center">Please enter the tasks you want to complete:</h5>
+<%= render @list.items %>
+
+<%= render 'items/form' %>
+
+<%= link_to 'Edit', edit_list_path(@list) %> 
+<%= link_to 'Back', lists_path %>

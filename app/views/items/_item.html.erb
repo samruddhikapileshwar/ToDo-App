@@ -1,0 +1,20 @@
+<p>
+    <strong>Title:</strong>
+    <%= item.title %>
+  </p>
+ 
+  <p>
+    <strong>State:</strong>
+    <%= item.state %>
+  </p>
+
+  <p>
+    <strong>Description:</strong>
+    <%= item.description %>
+  </p>
+
+  <p>
+  <%= link_to 'Destroy Comment', [item.list, item],
+               method: :delete,
+               data: { confirm: 'Are you sure?' } %>
+</p>
