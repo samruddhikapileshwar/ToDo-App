@@ -2,7 +2,7 @@ default: &default
   adapter: mysql2
   hostname: localhost
   username: root
-  password: samruddhi
+  password: 
   pool: 5
   timeout: 5000
 
@@ -13,7 +13,7 @@ development:
   database: todo
   hostname: localhost
   username: root
-  password: samruddhi
+  password: 
   pool: 5
   timeout: 5000
 

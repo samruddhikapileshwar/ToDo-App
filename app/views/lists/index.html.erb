@@ -2,6 +2,9 @@
   <h1>Todo Application</h1>
 </div>
 
+<b>Create a new list:</b>
+<%= link_to 'New List', new_list_path %>
+
 <div class="login">
 <% if user_signed_in? %>
   Logged in as <strong><%= current_user.email %></strong>.
@@ -28,11 +31,11 @@
       <td><%= list.description %></td>
       <td><%= link_to 'Show', list_path(list) %></td>
       <td><%= link_to 'Edit', edit_list_path(list) %></td>
-      <td><%= link_to 'Delete', list_path(list),
+      <td><%= button_to 'Delete', list_path(list),
               method: :delete,
               data: { confirm: 'Are you sure?' } %></td>
     </tr>
   <% end %>
 </table>
 
-<%= link_to 'New List', new_list_path %>
+

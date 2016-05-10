@@ -5,24 +5,11 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+1. Install the latest versions of Ruby and Rails on your system
+2. Download the ToDo-App folder from the Github account
+3. Open command prompt and change the current working directory where the file is downloaded
+4. Type bundle install, to install the gems
+5. Open MySQL and create database todo
+6. Run the migrations using, rake db:migrate command
+7. Type rails s when all the above steps are successfully completed.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.

@@ -5,7 +5,7 @@
   </p>
   <p>
     <%= f.label :state %><br>
-    <%= f.text_area :state %>
+    <%= f.select :state, [ 'Not Started', 'In Progress', 'Complete' ], :prompt => 'Select One' %>
   </p>
   <p>
     <%= f.label :description %><br>

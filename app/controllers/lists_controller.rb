@@ -8,7 +8,7 @@ class ListsController < ApplicationController
   	end
 	
 	def new
-		@list = List.new
+		  @list = List.new
     end
 
     def edit
@@ -23,7 +23,7 @@ class ListsController < ApplicationController
     end
 
     def update
- 	 @list = List.find(params[:id])
+ 	    @list = List.find(params[:id])
  
   	if @list.update(list_params)
     	redirect_to @list
@@ -34,7 +34,7 @@ class ListsController < ApplicationController
 
 	def destroy
   		@list = List.find(params[:id])
- 	 	@list.destroy
+ 	 	  @list.destroy
  
   		redirect_to lists_path
 	end
